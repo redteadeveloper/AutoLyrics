@@ -1,6 +1,6 @@
 # AutoLyrics
 
-<img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/icon.png?raw=true" width="256"></a>
+<img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/icon.png?raw=true" width="64"></a>
 
 ## About
  
