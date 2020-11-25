@@ -6,6 +6,7 @@ const filesaver = require("file-saver")
 window.onload = function() {
 
     document.getElementById("file").onchange = function() {
+        document.getElementById('filepath').style.color = "#000000"
         document.getElementById('filepath').value = document.getElementById('file').files[0].path
     }
 
@@ -14,10 +15,11 @@ window.onload = function() {
         try {
             let filename = document.getElementById('file').files[0].path.split("\\")[document.getElementById('file').files[0].path.split("\\").length-1]
             let title = document.getElementById("title").value
+            let artist = document.getElementById("artist").value
 
             document.getElementById("status").value = "Please wait a moment..."
 
-            var lyrics = await solenolyrics.requestLyricsFor(title); 
+            var lyrics = await solenolyrics.requestLyricsFor(artist + ' ' + title); 
             if(!lyrics) return document.getElementById("status").value = "Couldn't find lyrics of " + title
 
             const reader = new FileReader();

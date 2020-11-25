@@ -1,7 +1,7 @@
 {
   "name": "autolyrics",
   "productName": "AutoLyrics",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add lyrics to mp3 file easily!",
   "main": "./src/index.js",
   "scripts": {

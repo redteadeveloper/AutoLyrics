@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    
+
   <meta charset="UTF-8">
   <script src="./js/bundle.js"></script>
 
-<body style="background-color:#444444; text-align: center; color: #FFFFFF;">
+<body style="background-color:#32353b; text-align: center; color: #FFFFFF;">
 
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
 
@@ -14,23 +14,28 @@
     <div class="filebox"> 
       <br><span class="fileboxtitle" style="font-size: 18px;">Select mp3 file</span><br><br>
       <label for="file">Select</label> 
-      <input class="upload-name" readonly="readonly" value="No file selected" id="filepath">
+      <input class="upload-name" disabled value="No file selected" id="filepath">
       <input type="file" id="file" accept="audio/mpeg"> 
       <br><br>
     </div>
     <div class="titlebox">
       <label for="title">Enter song title</label><br><br>
       <input class="title" type="text" id="title" />
-      <br><br><br>
+      <br><br>
     </div>
+    <div class="artistbox">
+        <label for="artist">Enter artist name</label><br><br>
+        <input class="artist" type="text" id="artist" />
+        <br><br><br>
+      </div>
     <div class="button">
-        <button class="submit" type="button" id="submit">Start</button>
+        <button class="submit" type="button" id="submit"><span>Start </span></button>
     </div><br><br>
 </form>
   
   <div class="status">
     <label for="status">Status: </label>
-    <input class="status" readonly="readonly" type="text" id="status" />
+    <input class="status" disabled type="text" id="status" />
   </div>
 </body>
 

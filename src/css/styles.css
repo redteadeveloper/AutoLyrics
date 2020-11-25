@@ -18,7 +18,7 @@
   
 .filebox label {
     display: inline-block;
-    font-size: 14px; 
+    font-size: 15px; 
     padding: 5px 15px;
     color: #000000;
     vertical-align: middle;
@@ -26,7 +26,12 @@
     cursor: pointer;
     border: 1px solid #ebebeb;
     border-radius: 5px;
-    
+    transition-duration: 0.5s;
+}
+
+.filebox label:hover {
+    background-color: silver;
+    border: 1px solid silver;
 }
   
   /* named upload */
@@ -52,7 +57,7 @@
 .titlebox .title {
     display: inline-block;
     height: 30px;
-    font-size:14px; 
+    font-size: 15px; 
     padding: 0 10px;
     vertical-align: middle;
     background-color: #f5f5f5;
@@ -71,7 +76,7 @@
 .artistbox .artist {
     display: inline-block;
     height: 30px;
-    font-size:14px; 
+    font-size: 15px; 
     padding: 0 10px;
     vertical-align: middle;
     background-color: #f5f5f5;
@@ -79,16 +84,68 @@
     border-radius: 5px;
 }
 
+/* .button .submit {
+    display: inline-block;
+    font-size: 16px; 
+    padding: 5px 15px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    background-color: transparent;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    transition-duration: 0.5s;
+    border-bottom: 1px solid #ebebeb;
+} */
+
 .button .submit {
     display: inline-block;
-    font-size: 15px; 
+    font-size: 15px;
+    background-color: transparent;
     padding: 5px 15px;
-    color: #000000;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: 1px solid #ebebeb;
+    color: #FFFFFF;
+    text-align: center;
     vertical-align: middle;
-    background-color: #4CAF50;
+    transition: all 0.5s;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
+    outline: none !important;
+}
+  
+.button .submit span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button .submit:hover {
+    background-color: #4CAF50;
+    color: #000000;
+    border-radius: 3px;
+    border-bottom: 1px solid #4CAF50;
+}
+
+.button .submit span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button .submit:hover span {
+    padding-right: 25px;
+}
+  
+.button .submit:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 .status label {
@@ -98,11 +155,11 @@
 .status .status {
     display: inline-block;
     height: 30px;
+    color: #000000;
     font-size:14px; 
     padding: 0 10px;
     vertical-align: middle;
     background-color: #f5f5f5;
     border: 1px solid #ebebeb;
     border-radius: 5px;
-    text-align: center;
 }
