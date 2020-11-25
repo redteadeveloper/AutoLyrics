@@ -2,6 +2,10 @@
 
 # AutoLyrics
 
+<p align="center">
+<h3>Add lyrics to mp3 file easily!</h3>
+</p>
+
 ## About
  
 [AutoLyrics](https://github.com/redteadeveloper/AutoLyrics) is an app which can add lyrics to mp3 files.
