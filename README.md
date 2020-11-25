@@ -1,5 +1,7 @@
 # AutoLyrics-electron
- 
-AutoLyrics with UI
 
-Created using electron and browserify
+## About
+ 
+[AutoLyrics](https://github.com/redteadeveloper/AutoLyrics) with UI.
+
+Created using [electron](https://www.electronjs.org/) and [browserify](http://browserify.org/).
