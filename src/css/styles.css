@@ -91,6 +91,10 @@
     border-radius: 5px;
 }
 
+.status label {
+    font-size: 17px;
+}
+
 .status .status {
     display: inline-block;
     height: 30px;
@@ -102,8 +106,3 @@
     border-radius: 5px;
     text-align: center;
 }
-
-.status label {
-    font-size: 17px;
-}
-  
