@@ -4,4 +4,4 @@
  
 [AutoLyrics](https://github.com/redteadeveloper/AutoLyrics) with UI.
 
-Created using [electron](https://www.electronjs.org/) and [browserify](http://browserify.org/).
+Created using [Electron](https://www.electronjs.org/) and [Browserify](http://browserify.org/).
