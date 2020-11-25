@@ -1,8 +1,9 @@
-# AutoLyrics
+
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/redteadeveloper/AutoLyrics/main/src/img/logo.png" width="256"></a>
+  <img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/icon.png?raw=true" width="64"><h1>AutoLyrics</h1>
 </p>  
+
 ## About
  
 [AutoLyrics](https://github.com/redteadeveloper/AutoLyrics) is an app which can add lyrics to mp3 files.
