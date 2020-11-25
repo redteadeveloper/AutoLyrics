@@ -2,9 +2,9 @@
 
 # AutoLyrics
 
-<p align="center">
+<div align="center">
 <h3>Add lyrics to mp3 file easily!</h3>
-</p>
+</div>
 
 ## About
  
