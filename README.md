@@ -1,6 +1,7 @@
 # AutoLyrics
 
 <img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/icon.png?raw=true" width="64"></a>
+<h3>Add lyrics to mp3 file easily!</h3>
 
 ## About
  
