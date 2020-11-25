@@ -1,0 +1,38 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "My First Electron App",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "browser-id3-writer": "^4.4.0",
+    "cheerio": "^1.0.0-rc.3",
+    "custom-electron-titlebar": "^3.2.2-hotfix62",
+    "electron-reload": "^1.5.0",
+    "file-saver": "^2.0.5",
+    "findthelyrics": "^1.0.7",
+    "got": "^11.8.0",
+    "jquery": "^3.5.1",
+    "node-id3": "^0.2.1",
+    "solenolyrics": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaishikasb/basic-electron-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaishikasb/basic-electron-app/issues"
+  },
+  "homepage": "https://github.com/aaishikasb/basic-electron-app#readme"
+}

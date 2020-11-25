@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="../bundle.js"></script>
+  <!-- <title>AutoLyrics</title>
+  <style>
+    html {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style> -->
+</head>
+
+<body style="background-color:#444444; text-align: center; color: #FFFFFF;">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <form action="/my-handling-form-page" method="post">
+    <div class="filebox"> 
+      <br><span class="fileboxtitle" style="font-size: 18px;">Select mp3 file</span><br><br>
+      <label for="file">Select</label> 
+      <input class="upload-name" readonly="readonly" value="No file selected" id="filepath">
+      <input type="file" id="file" accept="audio/mpeg"> 
+      <br><br>
+    </div>
+    <div class="titlebox">
+      <label for="title">Enter song title</label><br><br>
+      <input class="title" type="text" id="title" />
+      <br><br><br>
+    </div>
+    <div class="button">
+        <button class="submit" type="button" id="submit">Start</button>
+    </div><br><br>
+</form>
+  
+  <div class="status">
+    <label for="status">Status: </label>
+    <input class="status" readonly="readonly" type="text" id="status" />
+  </div>
+
+
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
