@@ -1,9 +1,9 @@
-<img width="80" height="80" align="left" style="float: left; margin: 0 10px 0 0;" alt="AutoLyrics" src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/icon.png?raw=true">
-
-# AutoLyrics
+<div align="center">
+ <img width="80" height="80" align="left" style="float: left; margin: 0 10px 0 0;" alt="AutoLyrics" src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/icon.png?raw=true">
+</div>
 
 <div align="center">
-<h3>Add lyrics to mp3 file easily!</h3>
+ <h3>Add lyrics to mp3 file easily!</h3>
 </div>
 
 ## About
