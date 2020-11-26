@@ -21,9 +21,10 @@ Logo designed by [@Shio7](https://github.com/Shio7).
 ## Modules used
 
 - [Electron](https://www.electronjs.org/)
-
 - [Browserify](http://browserify.org/)
-
 - [browser-id3-writer](https://www.npmjs.com/package/browser-id3-writer)
-
 - [solenolyrics](https://www.npmjs.com/package/solenolyrics)
+
+## Screenshot
+
+<img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/screenshot.png?raw=true" width="250"></a>
