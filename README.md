@@ -25,7 +25,7 @@ Logo designed by [@Shio7](https://github.com/Shio7).
 - [browser-id3-writer](https://www.npmjs.com/package/browser-id3-writer)
 - [solenolyrics](https://www.npmjs.com/package/solenolyrics)
 
-## Screenshot
+## Screenshots
 
 <img width="200" height="340" align="left" style="float: left; margin: 0 10px 0 0;" alt="Screenshot 1" src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/screenshot_1.png?raw=true">  
 <img width="200" height="340" align="left" style="float: left; margin: 0 10px 0 0;" alt="Screenshot 2" src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/screenshot_2.png?raw=true">  
