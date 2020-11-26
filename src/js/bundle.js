@@ -35,6 +35,7 @@ window.onload = function() {
                 document.getElementById("status").value = "Success!"
                 const blob = writer.getBlob();
                 filesaver.saveAs(blob, '(with lyrics) ' + filename);
+                writer.revokeURL()
             };
             reader.onerror = function () {
                 // handle error
