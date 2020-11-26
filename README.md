@@ -27,4 +27,5 @@ Logo designed by [@Shio7](https://github.com/Shio7).
 
 ## Screenshot
 
-<img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/screenshot.png?raw=true" width="250"></a>
+<img align="left" style="float: left; margin: 0 10px 0 0;" alt="Screenshot 1" src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/screenshot_1.png?raw=true">  
+<img align="left" style="float: left; margin: 0 10px 0 0;" alt="Screenshot 2" src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/screenshot_2.png?raw=true">  
