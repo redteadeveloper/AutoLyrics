@@ -16,6 +16,7 @@ window.onload = function() {
             let title = document.getElementById("title").value
             let artist = document.getElementById("artist").value
 
+            if (!document.getElementById('file').files[0]) return document.getElementById("status").value = "Please select mp3 file."
             if (!title) return document.getElementById("status").value = "Please enter title."
             if (!artist) return document.getElementById("status").value = "Please enter artist."
 
@@ -39,10 +40,9 @@ window.onload = function() {
                 writer.addTag();
                 document.getElementById("status").value = "Success!"
                 const blob = writer.getBlob();
-                filesaver.saveAs(blob, '(with lyrics) ' + filename);
+                filesaver.saveAs(blob, '(with lyrics) ' + filename.substring(0, filename.length - 4) + '.mp3');
             };
             reader.onerror = function () {
-                // handle error
                 console.error('Reader error', reader.error);
             };
             reader.readAsArrayBuffer(document.getElementById('file').files[0]);
