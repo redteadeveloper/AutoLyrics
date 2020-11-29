@@ -8,7 +8,7 @@ Created using [Electron](https://www.electronjs.org/) and [Browserify](http://br
 
 Logo designed by [@Shio7](https://github.com/Shio7).
 
-<img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/icon.png?raw=true" width="64"></a>
+<img src="https://github.com/redteadeveloper/AutoLyrics/blob/main/src/img/logo-background.png?raw=true" width="64"></a>
 
 ## Building
 
