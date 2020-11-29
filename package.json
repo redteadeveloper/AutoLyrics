@@ -1,7 +1,7 @@
 {
   "name": "autolyrics",
   "productName": "AutoLyrics",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add lyrics to mp3 file easily!",
   "main": "./src/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "custom-electron-titlebar": "^3.2.2-hotfix62",
     "electron-reload": "^1.5.0",
     "file-saver": "^2.0.5",
-    "solenolyrics": "^5.0.0"
+    "node-fetch": "^2.6.1"
   },
   "repository": {
     "type": "git",

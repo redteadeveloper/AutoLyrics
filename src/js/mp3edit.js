@@ -1,10 +1,11 @@
-const solenolyrics = require("solenolyrics")
 const ID3Writer = require("browser-id3-writer")
 const filesaver = require("file-saver")
+const fetch = require('node-fetch')
 
 window.onload = function() {
 
     document.getElementById("file").onchange = function() {
+        document.getElementById('filepath').style.color = "#000000"
         document.getElementById('filepath').value = document.getElementById('file').files[0].path
     }
 
@@ -13,10 +14,17 @@ window.onload = function() {
         try {
             let filename = document.getElementById('file').files[0].path.split("\\")[document.getElementById('file').files[0].path.split("\\").length-1]
             let title = document.getElementById("title").value
+            let artist = document.getElementById("artist").value
+
+            if (!title) return document.getElementById("status").value = "Please enter title."
+            if (!artist) return document.getElementById("status").value = "Please enter artist."
 
             document.getElementById("status").value = "Please wait a moment..."
 
-            var lyrics = await solenolyrics.requestLyricsFor(title); 
+            let res = await fetch(`https://some-random-api.ml/lyrics/?title=${encodeURI(artist)}_${encodeURI(title)}`)
+            res = await res.json()
+            let lyrics = res.lyrics
+
             if(!lyrics) return document.getElementById("status").value = "Couldn't find lyrics of " + title
 
             const reader = new FileReader();
