@@ -22,8 +22,8 @@ Logo designed by [@Shio7](https://github.com/Shio7).
 
 - [Electron](https://www.electronjs.org/)
 - [Browserify](http://browserify.org/)
+- [custom-electron-titlebar](https://www.npmjs.com/package/custom-electron-titlebar)
 - [browser-id3-writer](https://www.npmjs.com/package/browser-id3-writer)
-- [solenolyrics](https://www.npmjs.com/package/solenolyrics)
 
 ## Screenshots
 
