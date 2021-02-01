@@ -10,11 +10,11 @@ Logo designed by [@Shio7](https://github.com/Shio7).
 
 ## Building
 
-#### ``git clone``
-
-#### ``npm install``
-
-#### ``npm run build``
+```bash
+$ git clone
+$ npm install
+$ npm run build
+```
 
 ## Modules used
 
